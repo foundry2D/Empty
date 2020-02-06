@@ -1,0 +1,10 @@
+let project = new Project('Project');
+project.addAssets('Assets/**');
+project.addSources('Sources');
+project.addShaders('Shaders/**');
+project.addDefine("editor_dev");
+project.addDefine("debug_editor");
+await project.addProject('Libraries/foundsdk/khafs');
+await project.addProject('Libraries/foundsdk/editor');
+await project.addProject('Libraries/foundsdk/foundry2d');
+resolve(project);

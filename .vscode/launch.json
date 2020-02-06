@@ -1,0 +1,43 @@
+{
+    "configurations": [
+        {
+            "type": "firefox",
+            "request": "launch",
+            "name": "HTML5 - Firefox",
+            "file": "${workspaceFolder}/build/html5/index.html",
+            "preLaunchTask": "Kha: Build for HTML5",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "HTML5 - Chrome",
+            "runtimeExecutable": "/usr/bin/chromium",
+            "runtimeArgs": [
+                "--disable-web-security",
+                "--allow-insecure-localhost"
+            ],
+            "url": "https://127.0.0.1:8080",
+            "webRoot": "${workspaceFolder}/build/html5",
+            "preLaunchTask": "Kha: Build for HTML5"
+        },
+        {
+            "type": "electron",
+            "request": "launch",
+            "name": "Kha: HTML5",
+            "appDir": "${workspaceFolder}/build/debug-html5",
+            "cwd": "${workspaceFolder}/build/debug-html5",
+            "sourceMaps": true,
+            "preLaunchTask": "Kha: Build for Debug HTML5",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "krom",
+            "request": "launch",
+            "name": "Kha: Krom",
+            "preLaunchTask": "Kha: Build for Krom",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ],
+    "compounds": []
+}

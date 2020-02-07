@@ -19,3 +19,5 @@ git submodule foreach git pull origin master
 git submodule update --init --recursive
 
 ```
+
+Don't forget to specify in vscode the path to your Up to date Kha repo.

@@ -4,9 +4,10 @@ To start a Foundry Project from scratch clone this repo:
 
 `git clone https://github.com/mundusnine/Empty.git`
 
-Then cd into Libraries:
 
-`cd Libraries`
+Then cd into Empty/Libraries:
+
+`cd Empty/Libraries`
 
 While in Libraries folder clone the foundsdk:
 

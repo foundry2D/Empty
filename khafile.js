@@ -4,6 +4,8 @@ project.addSources('Sources');
 project.addShaders('Shaders/**');
 project.addDefine("editor_dev");
 project.addDefine("debug_editor");
+project.addParameter("-debug");
+project.targetOptions.html5.webgl = true;
 await project.addProject('Libraries/foundsdk/khafs');
 await project.addProject('Libraries/foundsdk/editor');
 await project.addProject('Libraries/foundsdk/foundry2d');

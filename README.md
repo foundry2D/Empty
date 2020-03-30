@@ -16,7 +16,9 @@ While in Libraries folder clone the foundsdk:
 To make sure everything is there, cd into foundsdk and:
 ```
 cd foundsdk
+//For developement to get the most up to date 
 git submodule foreach git pull origin master
+//To get the stable release version of the SDK
 git submodule update --init --recursive
 
 ```

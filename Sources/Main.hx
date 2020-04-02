@@ -4,7 +4,6 @@ import found.Found;
 
 class Main {
 
-	public static var version = "0.1";
 	public static var sha = utilities.BuildMacros.sha().substr(1, 7);
 	public static var date = utilities.BuildMacros.date().split(" ")[0];
 

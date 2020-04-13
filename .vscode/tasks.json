@@ -11,6 +11,15 @@
                 "http-server",
                 "${workspaceFolder}/build/html5"
             ],
+        },
+        {
+            "label": "Start Haxe Incremental build",
+            "type": "shell",
+            "command": "haxe",
+            "args": [
+                "--wait",
+                "6001"
+            ],
         }
     ]
 }

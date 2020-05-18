@@ -1,6 +1,6 @@
 # Empty
 
-To start a Foundry Project from scratch clone this repo:
+To start a Foundry Project from scratch or to work on Foundry Editor developpement clone this repo:
 
 `git clone https://github.com/mundusnine/Empty.git`
 

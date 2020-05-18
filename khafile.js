@@ -5,7 +5,7 @@ project.addShaders('Shaders/**');
 project.addDefine("editor_dev");
 project.addDefine("debug_editor");
 project.addParameter("-debug");
-project.addParameter("--connect 6001");
+
 //project.addParameter("--times");
 // project.addDefine('macro-times');
 

@@ -1,14 +1,6 @@
 {
     "configurations": [
         {
-            "type": "firefox",
-            "request": "launch",
-            "name": "HTML5 - Firefox",
-            "file": "${workspaceFolder}/build/html5/index.html",
-            "preLaunchTask": "Kha: Build for HTML5",
-            "internalConsoleOptions": "openOnSessionStart"
-        },
-        {
             "type": "chrome",
             "request": "launch",
             "name": "HTML5 - Chrome",
@@ -25,14 +17,6 @@
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}/build/html5",
             "preLaunchTask": "Kha: Build for HTML5"
-        },
-        {
-            "type": "browser-preview",
-            "request": "launch",
-            "name": "Browser Preview: Launch",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}/build/html5",
-            "preLaunchTask": "Browser Preview HTML5"
         },
         {
             "type": "electron",

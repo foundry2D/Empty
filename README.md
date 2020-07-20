@@ -3,7 +3,8 @@
 To start a Foundry Project from scratch or to work on Foundry Editor developpement clone this repo:
 
 `git clone https://github.com/mundusnine/Empty.git`
-
+ 
+ or download the zip an copy the contents in your projects git repo
 
 Then cd into Empty/Libraries:
 

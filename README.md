@@ -25,3 +25,5 @@ git submodule update --init --recursive
 ```
 
 Don't forget to specify in vscode the path to your Up to date Kha repo.
+
+When doing a project with foundry make sure to add your Traits/class that extend Trait in the gameplay folder of the Sources folder

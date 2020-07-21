@@ -5,6 +5,8 @@ project.addShaders('Shaders/**');
 project.addDefine("editor_dev");
 project.addDefine("debug_editor");
 project.addParameter("-debug");
+project.addParameter('gameplay');
+project.addParameter("--macro keep('gameplay')");
 
 //project.addParameter("--times");
 // project.addDefine('macro-times');

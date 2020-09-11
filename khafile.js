@@ -2,13 +2,14 @@ let project = new Project('Project');
 project.addAssets('Assets/**');
 project.addSources('Sources');
 project.addShaders('Shaders/**');
-project.addDefine("editor_dev");
-project.addDefine("debug_editor");
 project.addParameter("-debug");
-project.addParameter('gameplay');
-project.addParameter("--macro keep('gameplay')");
 
-//project.addParameter("--times");
+// Gameplay code should reside in the gameplay folder of the Sources folder at the root
+// Add these parameters to make sure your Traits aren't removed by dead code elimination 
+// project.addParameter('gameplay');
+// project.addParameter("--macro keep('gameplay')");
+
+// project.addParameter("--times");
 // project.addDefine('macro-times');
 
 project.targetOptions.html5.disableContextMenu = true;

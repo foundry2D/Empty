@@ -10,16 +10,17 @@
             "args": [
                 "http-server",
                 "${workspaceFolder}/build/html5"
-            ],
+            ]
         },
         {
-            "label": "Start Haxe Incremental build",
+            "label": "Update Locales",
             "type": "shell",
-            "command": "haxe",
+            "command": "python",
             "args": [
-                "--wait",
-                "6001"
+                "${workspaceFolder}\\Libraries\\foundsdk\\editor\\Assets\\locale\\tools\\extract_locales.py",
+                "fr"
             ],
+            "problemMatcher": []
         }
     ]
 }

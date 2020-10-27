@@ -8,6 +8,7 @@ import found.State;
 class Project extends App {
 	public function new(){
 		super(function(){
+			#if !editor //keepme for easily switching between editor and release mode
 			/**
 			 *  Add all the scenes you need
 			**/
@@ -19,6 +20,7 @@ class Project extends App {
 			 *  Set the current state to be shown(i.e. the scene we want to see)
 			**/
 			// State.set('play');
+			#end
 		});
 		
 	}
